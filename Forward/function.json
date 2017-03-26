@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "inputMessage",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "mueken-queue",
+      "connection": "muekensb",
+      "accessRights": "Listen"
+    }
+  ],
+  "disabled": false
+}
